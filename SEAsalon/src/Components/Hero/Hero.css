@@ -1,0 +1,31 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(35, 5, 59, 0.748), rgba(35, 5, 59, 0.748)), url('../../assets/women-hair2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.hero-text {
+    text-align: left;
+    max-width: 700px;
+
+}
+
+.hero-text h1{
+    font-family: "Playfair Display", serif;
+    font-size: 70px;
+    font-weight: 600;
+    color: #FBE5D8;
+}
+
+.hero-text p{
+    color: #FBE5D8;
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
